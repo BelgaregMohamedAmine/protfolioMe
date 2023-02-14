@@ -1,0 +1,12 @@
+{
+    "result": [
+      {
+        "name": "John",
+        "marks":78
+      },
+      {
+        "name": "Mike",
+        "marks":78
+      }
+    ]
+  }
