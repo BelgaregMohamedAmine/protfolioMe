@@ -34,8 +34,8 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+Disallow: /home.html
 Disallow: /index.html
-Disallow: /blog.html
 Disallow: /blog_details_info.html
 Disallow: /portfolio-details.html
 Sitemap: https://mohamedaminebelgareg.me/sitemap.xml
