@@ -1,0 +1,52 @@
+<div class="d-flex flex-column">
+
+    <div class="profile">
+      <a href="index.html" aria-label="profile link belgareg mohamed amine" class="nav-link scrollto"> <img src="assets/img/profile-img.png" alt="profile-img" class="img-fluid rounded-circle"></a>
+      <h1 class="text-light"><a href="index.html" aria-label="profile link belgareg mohamed amine">Mohamed Amine Belgareg</a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="https://twitter.com/mohamed11692423" aria-label="Twitter link belgareg mohamed amine" class="twitter" target="_blank"><i class="bx bxl-twitter" ></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100087518705181"aria-label="facebook link belgareg mohamed amine"  class="facebook" target="_blank" ><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/belgareg.mohamed.amine/" aria-label="instagram link belgareg mohamed amine" class="instagram" target="_blank" ><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/BelgaregMohamedAmine" aria-label="github link belgareg mohamed amine" class="google-plus" target="_blank" ><i class="bx bxl-github" ></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-amine-belgareg-7972ab207/" aria-label="linkedin link belgareg mohamed amine" class="linkedin" target="_blank" ><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="index.html#about"aria-label="home link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="blog.html" aria-label="blog link belgareg mohamed amine" class="nav-link scrollto text-warning" ><i class="bx bx-file-blank text-warning" ></i> <span style="font-weight: bold;" >My Blog</span></a></li>
+        <li><a href="index.html#services" aria-label="services link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="index.html#portfolio" aria-label="home link belgareg mohamed amine" class="nav-link scrollto text-info "><i class="bx bx-book-content text-info"></i> <span style="font-weight: bold;">Portfolio</span></a></li>
+        <li><a href="index.html#resume" aria-label="portfolio link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="index.html#contact" aria-label="contact link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+  </div>
+
+
+  
+  <script>
+    const navbar = document.getElementById('navbar');
+    const links = navbar.querySelectorAll('.nav-link');
+
+    links.forEach(link => {
+    link.addEventListener('click', function() {
+    links.forEach(link => link.classList.remove('active'));
+    this.classList.add('active');
+});
+});
+  </script>
+
+<!-- <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("nav-link");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script> -->

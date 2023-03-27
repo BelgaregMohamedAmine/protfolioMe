@@ -20,6 +20,9 @@
 
   <meta name="keywords"   content="Web design, Web development, Website development, Website design, Front-end development, Back-end development, HTML, CSS, JavaScript, Responsive design, User experience (UX), User interface (UI), CMS (content management system), E-commerce website, Custom web development, Web development services, MERN Stack, MongoDb, NodeJs, react-chartjs-2, ReactJs, ExpressJs, Business intelligence, Data analysis, Data visualization, Data mining, Business analytics, Reporting, Dashboard, Data warehousing, Big data, Business performance, KPI (key performance indicators), Machine learning, Artificial intelligence (AI), Tableau, Power BI, Business intelligence tools">
 
+   <!--nav bar js-->
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   <!-- Favicons -->
   <link href="assets/img/bg_1.png" rel="icon">
   <link href="assets/img/bg_1.png" rel="apple-touch-icon">
@@ -70,31 +73,18 @@
 
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <a href="index.html" aria-label="profile link belgareg mohamed amine" class="nav-link scrollto"> <img src="assets/img/profile-img.png" alt="profile-img" class="img-fluid rounded-circle"></a>
-        <h1 class="text-light"><a href="index.html" aria-label="profile link belgareg mohamed amine">Mohamed Amine Belgareg</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/mohamed11692423" aria-label="Twitter link belgareg mohamed amine" class="twitter" target="_blank"><i class="bx bxl-twitter" ></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100087518705181"aria-label="facebook link belgareg mohamed amine"  class="facebook" target="_blank" ><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/belgareg.mohamed.amine/" aria-label="instagram link belgareg mohamed amine" class="instagram" target="_blank" ><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/BelgaregMohamedAmine" aria-label="github link belgareg mohamed amine" class="google-plus github" target="_blank" ><i class="bx bxl-github" ></i></a>
-          <a href="https://www.linkedin.com/in/mohamed-amine-belgareg-7972ab207/" aria-label="linkedin link belgareg mohamed amine" class="linkedin" target="_blank" ><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="index.html#about" aria-label="home link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="blog.html" aria-label="blog link belgareg mohamed amine" class="nav-link scrollto text-warning" ><i class="bx bx-file-blank text-warning"></i> <span style="font-weight: bold;" >My Blog</span></a></li>
-          <li><a href="index.html#services" aria-label="services link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="index.html#portfolio" aria-label="portfolio link belgareg mohamed amine" class="nav-link scrollto "><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="index.html#resume" aria-label="resume link belgareg mohamed amine"class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="index.html#contact" aria-label="contact link belgareg mohamed amine" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+     <!--Navigation bar-->
+     <div id="nav-placeholder">
     </div>
+
+    <script>
+      $(function(){
+      $("#nav-placeholder").load("sidebar.html");
+      });
+    </script>
+
+
+    <!--end of Navigation bar-->
   </header><!-- End Header -->
 
 
