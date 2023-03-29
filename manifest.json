@@ -1,0 +1,21 @@
+{
+    "short_name": "MY PORTOFILIO",
+    "name": "MYPORTOFILIO",
+    "icons": [
+     {
+       "src": "assets/img/bg_1.png",
+       "type": "image/png",
+       "sizes": "505x494"
+     },
+     {
+       "src": "assets/img/bg_1.png",
+       "type": "image/png",
+       "sizes": "505x494"
+     }
+  ],
+ 
+  "background_color": "#FFFFFF",
+  "theme_color": "#67BCFF",
+  "display": "standalone",
+  "start_url": "/Home/Index"
+ }
