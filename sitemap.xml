@@ -15,23 +15,23 @@
   <loc>https://mohamedaminebelgareg.me/home.html</loc>
     
     <url>
-      <loc>https://mohamedaminebelgareg.me/home.html#about</loc>
+      <loc>https://mohamedaminebelgareg.me/home.html%23about</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/home.html#services</loc>
+      <loc>https://mohamedaminebelgareg.me/home.html%23services</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/home.html#portfolio</loc>
+      <loc>https://mohamedaminebelgareg.me/home.html%23portfolio</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/home.html#resume</loc>
+      <loc>https://mohamedaminebelgareg.me/home.html%23resume</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/home.html#contact</loc>
+      <loc>https://mohamedaminebelgareg.me/home.html%23contact</loc>
     </url>
 
 </url>
@@ -45,19 +45,19 @@
   <loc>https://mohamedaminebelgareg.me/blog_details_info.html</loc>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/blog_details_info.html#ChatGPT</loc>
+      <loc>https://mohamedaminebelgareg.me/blog_details_info.html%23ChatGPT</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/blog_details_info.html#Naive-Bayes-Classifier</loc>
+      <loc>https://mohamedaminebelgareg.me/blog_details_info.html%23Naive-Bayes-Classifier</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/blog_details_info.html#Machine_Learning</loc>
+      <loc>https://mohamedaminebelgareg.me/blog_details_info.html%23Machine_Learning</loc>
     </url>
 
     <url>
-      <loc>https://mohamedaminebelgareg.me/blog_details_info.html#business_intelligence</loc>
+      <loc>https://mohamedaminebelgareg.me/blog_details_info.html%23business_intelligence</loc>
     </url>
 
 </url>
@@ -68,21 +68,21 @@
   <loc>https://mohamedaminebelgareg.me/portfolio-details.html</loc>
 
       <url>
-        <loc>https://mohamedaminebelgareg.me/portfolio-details.html#shopit-details-filter</loc>
+        <loc>https://mohamedaminebelgareg.me/portfolio-details.html%23shopit-details-filter</loc>
       </url>
 
       <url>
-        <loc>https://mohamedaminebelgareg.me/portfolio-details.html#toyota-details-filter</loc>
+        <loc>https://mohamedaminebelgareg.me/portfolio-details.html%23toyota-details-filter</loc>
       </url>
 
       <url>
-        <loc>https://mohamedaminebelgareg.me/portfolio-details.html#numberonewebsite</loc>
+        <loc>https://mohamedaminebelgareg.me/portfolio-details.html%23numberonewebsite</loc>
       </url>
 
       <url>
-        <loc>https://mohamedaminebelgareg.me/portfolio-details.html#crt-details-filter</loc>
+        <loc>https://mohamedaminebelgareg.me/portfolio-details.html%23crt-details-filter</loc>
       </url>
-      
+
 </url>
 
 
