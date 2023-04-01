@@ -799,7 +799,7 @@ section {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .services .title a {
@@ -812,8 +812,8 @@ section {
 
 .services .description {
   margin-left: 80px;
-  line-height: 40px;
-  font-size: 18px;
+  line-height: 30px;
+  font-size: 15px;
 }
 
 /*--------------------------------------------------------------
