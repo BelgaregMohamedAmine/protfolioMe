@@ -525,6 +525,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  background-color: #f5f8fd;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -586,6 +590,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio{
+    background-color: #ffffff;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -752,6 +760,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-color: #f5f8fd;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -787,7 +799,7 @@ section {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .services .title a {
@@ -800,8 +812,8 @@ section {
 
 .services .description {
   margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 40px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
