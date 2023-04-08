@@ -35,16 +35,22 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+#onesignal-bell-container.onesignal-reset.onesignal-bell-container-bottom-right {
+  bottom: 70px !important;
+  right: -3px !important;
+}
+
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 24px;
-  bottom: 85px;
+  right: 15px;
+  bottom: 21px;
   z-index: 996;
   background: #149ddd;
-  width: 40px;
-  height: 40px;
+  width: 48.5px;
+  height: 48.5px;
   border-radius: 50px;
   transition: all 0.4s;
 }
