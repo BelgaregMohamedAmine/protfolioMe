@@ -35,10 +35,10 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-#onesignal-bell-container.onesignal-reset.onesignal-bell-container-bottom-right {
+/* #onesignal-bell-container.onesignal-reset.onesignal-bell-container-bottom-right {
   bottom: 70px !important;
   right: -3px !important;
-}
+} */
 
 
 .back-to-top {
